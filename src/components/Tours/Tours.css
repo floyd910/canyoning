@@ -1,107 +1,70 @@
-.tours_wrapper {
-  margin-top: 50px;
-  padding: 0px 100px 50px 100px;
+.tours_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 100px 50px 100px;
+  /* border: 1px solid green; */
+}
+
+.tour_item{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 30%;
+  /* border: 1px solid red; */
 }
 
-.tour_item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.img_box{
+  width: 100%;
+  position: relative;
+  cursor: pointer;
 }
 
-.tour_item h5 {
-  font-size: 24px;
-}
-
-.tour_item img {
+.img_box img{
   width: 100%;
 }
 
-.d-flex {
-  display: flex;
-  justify-content: flex-start;
-  gap: 45px;
-  align-items: flex-start;
-}
-
-.img_box {
-  position: relative;
-  width: 40%;
-  min-width: 440px;
-}
-
-.text p {
-  font-size: 20px;
-}
-
-.text {
-  margin-top: -10px;
-  color: grey;
-}
-
-.tours_section {
+.tour_item h5{
   font-size: 24px;
 }
 
-.level {
-  background: #d76a03;
-  padding: 10px 25px 10px 25px;
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  font-size: 20px;
+.text{
+  margin-top: 20px;
+  color: grey;
+  font-size: 18px;
 }
 
-.text p:nth-child(3) {
-  font-style: italic;
-  font-weight: bold;
+.level{
+  position: absolute;
+  color: white;
+  top: 20px;
+  right: 0px;
+  background: #d76a03;
+  padding: 10px;
+  font-size: 18px;
 }
+
+.text p:nth-child(3){
+  font-weight: bold;
+  font-style: italic;
+}
+
 
 @media only screen and (max-width: 1450px) {
-  .tours_wrapper {
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .d-flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .text p:nth-child(3) {
-    max-width: 300px;
-  }
-  .text {
-    margin-top: -50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .img_box {
-    width: 60%;
-  }
+ .tour_item{
+   width: 40%;
+ }
+ .tours_wrapper{
+   padding: 50px 10px 50px 10px;
+ }
 }
 
 @media only screen and (max-width: 900px) {
-  .tours_wrapper {
-    padding: 10px;
-  }
-  .img_box {
-    max-width: none;
+  .tour_item{
     width: 90%;
   }
-}
-
-@media only screen and (max-width: 414px) {
-  .tours_wrapper {
-    padding: 0 5px 0 5px;
+  .tours_wrapper{
+    padding: 50px 10px 50px 10px;
   }
-  .img_box {
-    max-width: none;
-    width: 100%;
-  }
-}
+ }

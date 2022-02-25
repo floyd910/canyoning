@@ -97,3 +97,49 @@ input:focus {
     display: block;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  header{
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+  }
+ .burger_wrapper{
+   width: 50px;
+   margin-right: 50px;
+ }
+ h1{
+   font-size: 28px !important;
+ }
+ h2{
+   font-size: 20px !important;
+ }
+ nav{
+   align-items: center;
+   height: 100%;
+ }
+ }
+
+ @media only screen and (max-width: 540px) {
+  header{
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+  }
+ .burger_wrapper{
+   width: 50px;
+   margin-right: 50px;
+ }
+ h1{
+   font-size: 18px !important;
+ }
+ h2{
+   font-size: 14px !important;
+   letter-spacing: 2.6px !important;
+ }
+ nav{
+   align-items: center;
+   height: 100%;
+ }
+ }
+

@@ -8,21 +8,29 @@ const Header = () => {
     <header>
       <nav>
         <div className="logo_wrapper">
+          <Link style={{textDecoration: 'none'}} to="/">
           <h1>
             <strong>AJARA CANYONING</strong>
           </h1>
           <h2>Adventures in Georgia</h2>
+          </Link>
         </div>
         <div className="menu_wrapper">
           <Link
             style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
-            to="/rpg"
+            to="/"
+          >
+            Home
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
+            to="/tours"
           >
             Tours
           </Link>
           <Link
             style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
-            to="/rpg"
+            to="/tours"
           >
             About Us
           </Link>
@@ -30,18 +38,12 @@ const Header = () => {
             style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
             to="/rpg"
           >
-            Work With Me
-          </Link>
-          <Link
-            style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
-            to="/rpg"
-          >
-            More
+            Contact
           </Link>
           <div className="search_wrapper">
             <div className="search_form">
               <input />
-              <div class="div1"></div>
+              <div className="div1"></div>
             </div>
           </div>
         </div>

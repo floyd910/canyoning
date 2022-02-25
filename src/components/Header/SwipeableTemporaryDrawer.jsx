@@ -7,6 +7,7 @@ import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 import ListItemText from "@mui/material/ListItemText";
+import { Link } from "react-router-dom";
 
 import "./Header.css";
 export default function SwipeableTemporaryDrawer() {
@@ -38,14 +39,25 @@ export default function SwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Tours", "About Us", "Work With Me", "More"].map((text, index) => (
-          <ListItem button key={text}>
+        
+          
             {/* <ListItemIcon>
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
             </ListItemIcon> */}
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+            <ListItem>
+              <Link style={{textDecoration: 'none', color: 'grey'}} to="/">Home</Link>
+            </ListItem>
+            <ListItem>
+              <Link style={{textDecoration: 'none', color: 'grey'}} to="/tours">Tours</Link>
+            </ListItem>
+            <ListItem>
+              <Link style={{textDecoration: 'none', color: 'grey'}} to="/">About Us</Link>
+            </ListItem>
+            <ListItem>
+              <Link style={{textDecoration: 'none', color: 'grey'}} to="/">Contact</Link>
+            </ListItem>
+         
+     
       </List>
     </Box>
   );

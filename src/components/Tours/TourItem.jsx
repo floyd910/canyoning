@@ -1,11 +1,15 @@
 import React from "react";
 import "./Tours.css";
-const TourItem = ({ item }) => {
+import { useNavigate } from "react-router-dom";
+
+const TourItem = ({ item, inner }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="tour_item">
       <h5>{item.title}</h5>
       <div className="d-flex">
-        <div className="img_box">
+        <div className="img_box" onClick={() => navigate(`/postInner/${item.id}`)}> 
           <img src={item.img} alt={item.title} />
           <div className="level">Level: Medium</div>
         </div>
