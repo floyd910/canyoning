@@ -15,6 +15,7 @@ const HeroContent = () => {
         </h3>
         <h4>from Batumi Georgia</h4>
       </section>
+
       <div className="soc_media_wrapper">
         <FacebookIcon style={{ color: "white" }} />
         <InstagramIcon style={{ color: "white" }} />

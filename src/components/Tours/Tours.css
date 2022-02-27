@@ -1,41 +1,47 @@
-.tours_wrapper{
+.tours_wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
-  padding: 50px 100px 50px 100px;
+  padding: 50px 10px 50px 10px;
+  gap: 50px;
+  margin-top: 100px;
   /* border: 1px solid green; */
 }
 
-.tour_item{
+.tour_item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 30%;
+  width: 25%;
+  margin-top: -50px;
+  max-width: 540px;
   /* border: 1px solid red; */
 }
 
-.img_box{
+.img_box {
   width: 100%;
   position: relative;
   cursor: pointer;
+  height: 250px;
 }
 
-.img_box img{
+.img_box img {
   width: 100%;
+  height: 100%;
 }
 
-.tour_item h5{
+.tour_item h5 {
   font-size: 24px;
 }
 
-.text{
+.text {
   margin-top: 20px;
   color: grey;
   font-size: 18px;
 }
 
-.level{
+.level {
   position: absolute;
   color: white;
   top: 20px;
@@ -45,26 +51,25 @@
   font-size: 18px;
 }
 
-.text p:nth-child(3){
+.text p:nth-child(3) {
   font-weight: bold;
   font-style: italic;
 }
 
-
 @media only screen and (max-width: 1450px) {
- .tour_item{
-   width: 40%;
- }
- .tours_wrapper{
-   padding: 50px 10px 50px 10px;
- }
+  .tour_item {
+    width: 40%;
+  }
+  .tours_wrapper {
+    padding: 50px 10px 50px 10px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-  .tour_item{
+  .tour_item {
     width: 90%;
   }
-  .tours_wrapper{
+  .tours_wrapper {
     padding: 50px 10px 50px 10px;
   }
- }
+}

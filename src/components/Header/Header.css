@@ -3,6 +3,7 @@ header {
   height: 160px;
   width: 100%;
   padding: 0 100px 0 100px;
+  position: relative;
 }
 
 header nav {
@@ -38,7 +39,7 @@ header h2 {
 
 .search_wrapper {
   width: 400px;
-  margin-left: 70px;
+  margin-right: 0px;
 }
 
 .search_form {
@@ -96,50 +97,56 @@ input:focus {
   .burger_wrapper {
     display: block;
   }
+  .burger_and_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-  header{
+  header {
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center !important;
+  }
+  .burger_wrapper {
+    width: 50px;
+    margin-right: 50px;
+  }
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  nav {
+    align-items: center !important;
+    height: 100%;
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  header {
     padding-left: 20px;
     padding-right: 10px;
     align-items: center;
   }
- .burger_wrapper{
-   width: 50px;
-   margin-right: 50px;
- }
- h1{
-   font-size: 28px !important;
- }
- h2{
-   font-size: 20px !important;
- }
- nav{
-   align-items: center;
-   height: 100%;
- }
- }
-
- @media only screen and (max-width: 540px) {
-  header{
-    padding-left: 20px;
-    padding-right: 10px;
-    align-items: center;
+  .burger_wrapper {
+    width: 50px;
+    margin-right: 50px;
   }
- .burger_wrapper{
-   width: 50px;
-   margin-right: 50px;
- }
- h1{
-   font-size: 18px !important;
- }
- h2{
-   font-size: 14px !important;
-   letter-spacing: 2.6px !important;
- }
- nav{
-   align-items: center;
-   height: 100%;
- }
- }
-
+  h1 {
+    font-size: 18px !important;
+  }
+  h2 {
+    font-size: 14px !important;
+    letter-spacing: 2.6px !important;
+  }
+  nav {
+    align-items: center;
+    height: 100%;
+  }
+}
