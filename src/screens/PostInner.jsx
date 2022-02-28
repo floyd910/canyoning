@@ -14,21 +14,14 @@ const PostInner = ({ tours }) => {
         .map((item) => {
           return (
             <div className="tour_inner">
+              <div className="main_image">
               <h5>{item.title}</h5>
-              <div className="images_box">
-                <Swipe item={item} />
-                <SwipeLeftIcon
-                  style={{
-                    color: "#d76a03",
-                    position: "absolute",
-                    right: "10px",
-                    top: "10%",
-                    zIndex: "2",
-                    fontSize: "36px",
-                  }}
-                />
+
+                <img src={item.img} alt={item.title}/>
               </div>
+             
               {item.id === "uchkho_canyon_tour" ? (
+                <>
                 <div className="inner_text">
                   <h6>Canyon Tour 2-days</h6>
                   <p>Day 1</p>
@@ -93,8 +86,17 @@ const PostInner = ({ tours }) => {
                       You will get an energy bar and snacks during the canyoning
                     </li>
                   </ul>
+                 
                 </div>
+                 <div className="images_box">
+              
+                 <div className="gallery_text_wrapper">  <p>Gallery</p></div>
+                 <Swipe item={item} />
+                
+               </div>
+               </>
               ) : item.id === "tkhopra_canyon_tour" ? (
+                <>
                 <div className="inner_text">
                   <ul>
                     <p>Service includes</p>
@@ -108,6 +110,13 @@ const PostInner = ({ tours }) => {
                     <li>barbeque after canyoning</li>
                   </ul>
                 </div>
+                <div className="images_box">
+              
+                 <div className="gallery_text_wrapper">  <p>Gallery</p></div>
+                 <Swipe item={item} />
+                
+               </div>
+                </>
               ) : (
                 item.id === "dzmuisi_canyon_tour" && (
                   <>
@@ -129,6 +138,12 @@ const PostInner = ({ tours }) => {
                         <li>barbeque nd Georgian wine after canyoning</li>
                       </ul>
                     </div>
+                    <div className="images_box">
+              
+                 <div className="gallery_text_wrapper">  <p>Gallery</p></div>
+                 <Swipe item={item} />
+                
+               </div>
                   </>
                 )
               )}
