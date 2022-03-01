@@ -45,10 +45,10 @@ let toursStarter = [
     waterLevel: "Water level - Low",
     img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645855847/IMG_20211015_010749_530_vqmxrq.jpg",
     images: [
-      "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645855847/IMG_20211015_010749_530_vqmxrq.jpg",
       "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645855844/IMG_20211015_010746_008_q2gjna.jpg",
       // "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645620475/DZNE4401-small_qda4at.jpg",
       "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645855841/IMG_20220225_014753_128_etka3k.jpg",
+      "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645855847/IMG_20211015_010749_530_vqmxrq.jpg",
       // "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645620475/DZNE4545-small_ojjzxp.jpg",
     ],
     keywords:
@@ -69,10 +69,10 @@ let toursStarter = [
     waterLevel: "Water level - High",
     img: "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645858455/dzmusi_kt5n6b.jpg",
     images: [
-      "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645858455/dzmusi_kt5n6b.jpg",
       "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645858455/68_stusa5.jpg",
       // "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645620475/DZNE4401-small_qda4at.jpg",
       "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645858455/6a_ppyks3.jpg",
+      "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645858455/dzmusi_kt5n6b.jpg",
       // "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645620475/DZNE4545-small_ojjzxp.jpg",
     ],
     keywords:
