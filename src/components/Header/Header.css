@@ -18,6 +18,7 @@ header nav {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  margin-left: 100px !important;
 }
 
 header h1,
