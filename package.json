@@ -1,6 +1,5 @@
 {
   "name": "canion-tours",
-  "homepage": "https://github.com/LadoGelava910/canyon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
