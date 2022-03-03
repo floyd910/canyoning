@@ -140,7 +140,7 @@ const PostInner = ({ tours }) => {
                     </div>
                     <div className="images_box">
               
-                 <div className="gallery_text_wrapper">  <p>Gallery</p></div>
+                 <div className="gallery_text_wrapper"><p>Gallery</p></div>
                  <Swipe item={item} />
                 
                </div>
