@@ -17,10 +17,17 @@ const HeroContent = () => {
       </section>
 
       <div className="soc_media_wrapper">
-        <FacebookIcon style={{ color: "white" }} />
-        <InstagramIcon style={{ color: "white" }} />
-        <YouTubeIcon style={{ color: "white" }} />
-        <PinterestIcon style={{ color: "white" }} />
+        <a href="https://www.facebook.com/ajaracanyoning" target="_blank">
+          <FacebookIcon style={{ color: "white" }} />
+        </a>
+        <a href="https://www.instagram.com/ajaracanyoning/" target="_blank">
+          {" "}
+          <InstagramIcon style={{ color: "white" }} />
+        </a>
+        {/* <a href="https://www.instagram.com/ajaracanyoning/" target="_blank"><FacebookIcon style={{ color: "white" }}/></a>  */}
+
+        {/* <YouTubeIcon style={{ color: "white" }} />
+        <PinterestIcon style={{ color: "white" }} /> */}
       </div>
     </div>
   );
