@@ -1,0 +1,40 @@
+.contact_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px !important;
+    width: 100%;
+    align-items: flex-start;
+    color: grey;
+    margin-top: 50px;
+}
+
+.contact_wrapper a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+}
+
+.contact_wrapper p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact_wrapper{
+        padding: 0 !important;
+        align-items: center;
+    }
+
+    .contact_wrapper p{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .contact_wrapper a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 20px;
+    }
+    
+}

@@ -31,15 +31,15 @@ const Header = ({ tours, onEnter }) => {
           >
             Tours
           </Link>
-          <Link
+          {/* <Link
             style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
             to="/tours"
           >
             About Us
-          </Link>
+          </Link> */}
           <Link
             style={{ textDecoration: "none", color: "white", fontSize: "24px" }}
-            to="/rpg"
+            to="/contact"
           >
             Contact
           </Link>

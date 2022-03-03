@@ -5,6 +5,7 @@ import App from "./App";
 import ToursPage from "./screens/ToursPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostInner from "./screens/PostInner";
+import Contact from "./screens/Contact/Contact";
 
 let toursStarter = [
   {
@@ -86,6 +87,8 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App tours={toursStarter} />} />
         <Route path="/tours" element={<ToursPage tours={toursStarter} />} />
+        <Route path="/contact" element={<Contact />} />
+
         <Route
           path="/postInner/:id"
           element={<PostInner tours={toursStarter} />}
