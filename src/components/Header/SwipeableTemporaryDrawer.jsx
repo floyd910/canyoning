@@ -50,11 +50,11 @@ export default function SwipeableTemporaryDrawer() {
             <ListItem>
               <Link style={{textDecoration: 'none', color: 'grey'}} to="/tours">Tours</Link>
             </ListItem>
-            <ListItem>
+            {/* <ListItem>
               <Link style={{textDecoration: 'none', color: 'grey'}} to="/">About Us</Link>
-            </ListItem>
+            </ListItem> */}
             <ListItem>
-              <Link style={{textDecoration: 'none', color: 'grey'}} to="/">Contact</Link>
+              <Link style={{textDecoration: 'none', color: 'grey'}} to="/contact">Contact</Link>
             </ListItem>
          
      
