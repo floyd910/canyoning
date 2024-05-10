@@ -9,6 +9,29 @@ import Contact from "./screens/Contact/Contact";
 
 let toursStarter = [
   {
+    id: "batumi_canyoning",
+    title: "BATUMI CANYONING",
+    location: "Kapnistavi - 30 km from Batumi",
+    location2: "Start point - 650 aslm 	endpoint - 430 aslm ",
+    description:
+      "Length of the valley  – 750 m, Number of waterfalls  7, Rappelling point – 8, The highest waterfall  40 m",
+    drivingTime: "30 minutes from Batumi",
+    hiking: "20 minutes forest hiking",
+    canyoning: "3:30 – 4 hours in the canyon",
+    level: "Moderate",
+    waterLevel: "Water level - Medium",
+    img: "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739363/DZNE4494_tdouec.jpg",
+    images: [
+      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739363/DZNE4676_s2qjh0.jpg",
+      // "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645620475/DZNE4401-small_qda4at.jpg",
+      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739363/DZNE4494_tdouec.jpg",
+      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739413/photo_5460778779602432719_y1_qiqqqp.jpg",
+      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739364/photo_5251278774643834257_y_tau8fc.jpg",
+    ],
+    keywords:
+      "Village Dzmuii 55 km from Kutaisi Start point – 1050 aslm 	endpoint - 650 aslm Length of the valley – 1.5 km, Number of waterfalls  12, Rappelling point – 8, 2sliding, 2 jumping - The highest waterfall  20 m 2  hours driving from Kutaisi 1  Hour  forest hiking 4:30 – 5 hours in the canyon Level – Hard water level - High Price includes 5mm wetsuits, helmet, harness, full technical equipment,  2  certified guides, transfer from Kutaisi and back, energetic food in the canyon, barbeque and Georgian wine after canyoning.",
+  },
+  {
     id: "uchkho_canyon_tour",
     title: "UCHKHO CANYON TOUR",
     location: "Ajara region, Georgia,",
@@ -80,29 +103,7 @@ let toursStarter = [
       "Village Dzmuii 55 km from Kutaisi Start point – 1050 aslm 	endpoint - 650 aslm Length of the valley – 1.5 km, Number of waterfalls  12, Rappelling point – 8, 2sliding, 2 jumping - The highest waterfall  20 m 2  hours driving from Kutaisi 1  Hour  forest hiking 4:30 – 5 hours in the canyon Level – Hard water level - High Price includes 5mm wetsuits, helmet, harness, full technical equipment,  2  certified guides, transfer from Kutaisi and back, energetic food in the canyon, barbeque and Georgian wine after canyoning.",
   },
 
-  {
-    id: "batumi_canyoning",
-    title: "BATUMI CANYONING",
-    location: "Kapnistavi - 30 km from Batumi",
-    location2: "Start point - 650 aslm 	endpoint - 430 aslm ",
-    description:
-      "Length of the valley  – 750 m, Number of waterfalls  7, Rappelling point – 8, The highest waterfall  40 m",
-    drivingTime: "30 minutes from Batumi",
-    hiking: "20 minutes forest hiking",
-    canyoning: "3:30 – 4 hours in the canyon",
-    level: "Moderate",
-    waterLevel: "Water level - Medium",
-    img: "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739363/DZNE4494_tdouec.jpg",
-    images: [
-      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739363/DZNE4676_s2qjh0.jpg",
-      // "https://res.cloudinary.com/dzxxb95vy/image/upload/v1645620475/DZNE4401-small_qda4at.jpg",
-      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739363/DZNE4494_tdouec.jpg",
-      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739413/photo_5460778779602432719_y1_qiqqqp.jpg",
-      "https://res.cloudinary.com/dxhhvp8jh/image/upload/v1714739364/photo_5251278774643834257_y_tau8fc.jpg",
-    ],
-    keywords:
-      "Village Dzmuii 55 km from Kutaisi Start point – 1050 aslm 	endpoint - 650 aslm Length of the valley – 1.5 km, Number of waterfalls  12, Rappelling point – 8, 2sliding, 2 jumping - The highest waterfall  20 m 2  hours driving from Kutaisi 1  Hour  forest hiking 4:30 – 5 hours in the canyon Level – Hard water level - High Price includes 5mm wetsuits, helmet, harness, full technical equipment,  2  certified guides, transfer from Kutaisi and back, energetic food in the canyon, barbeque and Georgian wine after canyoning.",
-  },
+  
 ];
 
 ReactDOM.render(

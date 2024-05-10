@@ -11,7 +11,7 @@ export default function ExampleSlider({item}) {
 
   return (
     
-    <Carousel animation='slide' indicators={false} width="30%" timeout={{
+    <Carousel animation='slide' width="30%" timeout={{
     
       exit: 0
     }}>

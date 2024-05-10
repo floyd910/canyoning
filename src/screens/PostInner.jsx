@@ -13,7 +13,7 @@ const PostInner = ({ tours }) => {
         .filter((e) => e.id === id)
         .map((item) => {
           return (
-            <div className="tour_inner">
+            <div className="tour_inner" key={item.id}>
               <div className="main_image">
               <h5>{item.title}</h5>
 

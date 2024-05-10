@@ -24,9 +24,9 @@ const Swipe = ({ item }) => {
           return (
             <SwiperSlide key={index}>
               <div className="swiped_div">
-              <div class="arrow">
-    <div class="arrow-head"></div>
-    <div class="arrow-body"></div>
+              <div className="arrow">
+    <div className="arrow-head"></div>
+    <div className="arrow-body"></div>
   </div> 
                 <img
                   className={`panorama_img`}
@@ -34,9 +34,9 @@ const Swipe = ({ item }) => {
                   src={elem}
                   alt="AJARA CANYONING"
                 />
-               <div class="arrow">
-    <div class="arrow-body"></div>
-    <div class="down-arrow-head">    </div>
+               <div className="arrow">
+    <div className="arrow-body"></div>
+    <div className="down-arrow-head">    </div>
   </div>  
  
 
