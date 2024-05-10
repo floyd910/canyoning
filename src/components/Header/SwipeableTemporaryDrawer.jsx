@@ -32,7 +32,7 @@ export default function SwipeableTemporaryDrawer() {
 
   const list = (anchor) => (
     <Box
-      //   style={{ background: "#d76a03", color: "white" }}
+        style={{ background: "#d76a03",  height: "100vh" }}
       sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
@@ -45,16 +45,16 @@ export default function SwipeableTemporaryDrawer() {
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
             </ListItemIcon> */}
             <ListItem>
-              <Link style={{textDecoration: 'none', color: 'grey'}} to="/">Home</Link>
+              <Link style={{textDecoration: 'none', color: 'white', fontSize: "18px"}} to="/">Home</Link>
             </ListItem>
             <ListItem>
-              <Link style={{textDecoration: 'none', color: 'grey'}} to="/tours">Tours</Link>
+              <Link style={{textDecoration: 'none', color: 'white', fontSize: "18px"}} to="/tours">Tours</Link>
             </ListItem>
             {/* <ListItem>
-              <Link style={{textDecoration: 'none', color: 'grey'}} to="/">About Us</Link>
+              <Link style={{textDecoration: 'none', color: 'white'}} to="/">About Us</Link>
             </ListItem> */}
             <ListItem>
-              <Link style={{textDecoration: 'none', color: 'grey'}} to="/contact">Contact</Link>
+              <Link style={{textDecoration: 'none', color: 'white', fontSize: "18px"}} to="/contact">Contact</Link>
             </ListItem>
          
      

@@ -45,7 +45,7 @@ const Header = ({ tours, onEnter }) => {
           </Link>
         </div>
         <div className="burger_and_search">
-          <div className="search_wrapper">
+          {/* <div className="search_wrapper">
             <div className="search_form">
               <input
                 defaultValue={inputRef.value}
@@ -55,7 +55,7 @@ const Header = ({ tours, onEnter }) => {
               />
               <div className="div1"></div>
             </div>
-          </div>
+          </div> */}
           <div className="burger_wrapper">
             <SwipeableTemporaryDrawer />
           </div>

@@ -118,7 +118,7 @@ const PostInner = ({ tours }) => {
                </div>
                 </>
               ) : (
-                item.id === "dzmuisi_canyon_tour" && (
+                item.id === "dzmuisi_canyon_tour" ? (
                   <>
                     <div className="inner_text">
                       <h6>
@@ -145,6 +145,33 @@ const PostInner = ({ tours }) => {
                 
                </div>
                   </>
+                ) : item.id === "batumi_canyoning" && (
+                  <>
+                  <div className="inner_text">
+                    <h6>
+                      <strong>Tour provided by Georgian Canyoning</strong>
+                    </h6>
+
+                    <ul>
+                      <p>Service includes</p>
+
+                      <li>
+                      Transportation from and to Batumi
+
+                      </li>
+                      <li>2 certified guides</li>
+                      <li>Certified instructors service</li>
+                      <li>Full equipment, 5mm wetsuit, helmet, harness</li>
+                      <li>You will get an energy bar and snacks during the canyoning</li>
+                    </ul>
+                  </div>
+                  <div className="images_box">
+            
+               <div className="gallery_text_wrapper"><p>Gallery</p></div>
+               <Swipe item={item} />
+              
+             </div>
+                </>
                 )
               )}
             </div>

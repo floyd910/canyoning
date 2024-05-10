@@ -13,7 +13,7 @@ const HeroContent = () => {
           <br />
           ADVENTURE
         </h3>
-        <h4>from Batumi Georgia</h4>
+        <h4>from Batumi, Georgia</h4>
       </section>
 
       <div className="soc_media_wrapper">
