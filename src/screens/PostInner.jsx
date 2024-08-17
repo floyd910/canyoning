@@ -135,7 +135,7 @@ const PostInner = ({ tours }) => {
                         <li>2 certified guides</li>
                         <li>transfer from Kutaisi and back</li>
                         <li>energetic food in the canyon</li>
-                        <li>barbeque nd Georgian wine after canyoning</li>
+                       
                       </ul>
                     </div>
                     <div className="images_box">
